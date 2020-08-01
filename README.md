@@ -18,7 +18,7 @@ docker run --name cloud9 -p 3000:3000 -d bumblebee2311/c9-ide:latest
 It would automatically download docker image and automatically start a container named as <b>cloud9</b> on host port 3000
 On IP address 0.0.0.0:3000 (accessible via browser)
 
-To stop an already running container <b>docker ps </b> (Container NAMES <b>Cloud9</b>)
+To stop an already running container <b>docker ps </b> (Container NAMES <b>cloud9</b>)
 ```zsh
 docker stop cloud9
 ```
