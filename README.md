@@ -36,8 +36,8 @@ To get help on docker command
 docker COMMAND --help
 ```
 
-#### Important : [Turning plain terminal to colorful cli experience](# NOTE Turning non-colorful Terminal to a brilliant colorful cli experience)
-
+#### Important : 
+[Making CLI UI colorful on Cloud9 terminal](#colorful-cli-experience)
 
 ### # Method 2 (Tough Way!)
 5. Downlod this GitHub repository [c9-ide](github.com/bumblebee2311/c9-ide)
@@ -121,7 +121,9 @@ More updates on the way soon ...
 <b>Happy Coding :D </b>
 
 ---
-### # NOTE Turning non-colorful Terminal to a brilliant colorful cli experience
+#### Colorful CLI Experience
+<b> NOTE : Turning non-colorful Terminal to a brilliant colorful cli experience </b>
+
 The interface inside terminal is not colorful but, plain in taste.
 
 So, to get a colorful terminal interface, you first need to install vim (no sudo previlidges required already active as root)
@@ -146,7 +148,8 @@ Now you, will be outside vim, and execute cmd
 ```zsh
 source ~/.bashrc
 ```
-And, done now your terminal have colors, giving better interactive experience no command line/ cli.
+And, done now your terminal have colors, giving better interactive experience no command line/ CLI.
+
 ---
 ## License 
 [GPL-3.0 License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE)
