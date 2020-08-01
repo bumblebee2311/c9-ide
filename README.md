@@ -18,7 +18,7 @@ It would return information somewhat similar as shown in image below
 
 7. Using Docker Desktop to build image using <b>Dockerfile</b>
 ```zsh
-docker build c9-IDE
+docker build Cloud9
 ```
 8. It would take time to build complete docker img using Dockerfile and init.sh and would require internet connection for additional pkg downloads.
 9. After complete image buildup, chk for its presence
@@ -26,7 +26,7 @@ docker build c9-IDE
 docker images
 ```
 It would return attributes like REPOSITORY, TAG, IMAGE ID, CREATED, and SIZE and list all the images present probably ubuntu and c9-IDE.
-Since, ubuntu is used as base img to build c9-IDE
+Since, ubuntu is used as base img to build Cloud9
 
 10. Create container from the installed img using the command
 ```zsh
