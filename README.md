@@ -110,3 +110,5 @@ docker rmi IMAGE ID
 
 More updates on the way soon ...
 <b>Happy Coding :D </b>
+
+## [License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE)
