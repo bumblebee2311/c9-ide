@@ -36,6 +36,9 @@ To get help on docker command
 docker COMMAND --help
 ```
 
+Important : 
+<a id="# NOTE Turning non-colorful Terminal to a brilliant colorful cli experience: ">Changing non-colorful tasteless terminal experience to a better colorful cli experience: </a>
+
 ### # Method 2 (Tough Way!)
 5. Downlod this GitHub repository [c9-ide](github.com/bumblebee2311/c9-ide)
 6. Un-zip the compresses file downloaded (c9-ide.zip) in yr Downloads folder.
@@ -78,9 +81,14 @@ On, successful start it would return the same container ID
 
 ##### And Bingo!
 It would redirect you to Cloud9 interface, providing similar experience as of AWS Cloud9.
+
+Important:
+<a id="# NOTE Turning non-colorful Terminal to a brilliant colorful cli experience: ">Changing non-colorful tasteless terminal experience to a better colorful cli experience: </a>
+
 ##### NOTE:
   The terminal login is already as root user.
-  So, to install additional pkgs one doesn't need to use sudo every time, just apt-get install pkg_name 
+  So, to install additional pkgs one doesn't need to use sudo every time, just apt-get install pkg_name
+  eg you wish to install python3 and python3-pip, exec "apt-get install python3 python3-pip" in terminal and Bingo! it will do it for u
 
 ##### Advantages 
 1. Provides complete isolated file system as of host computer.
@@ -112,5 +120,33 @@ docker rmi IMAGE ID
 More updates on the way soon ...
 <b>Happy Coding :D </b>
 
+---
+## # NOTE Turning non-colorful Terminal to a brilliant colorful cli experience: 
+The interface inside terminal is not colorful but, plain in taste.
+
+So, to get a colorful terminal interface, you first need to install vim (no sudo previlidges required already active as root)
+```zsh
+apt-get install -y vim 
+```
+Then, edit the .bashrc file,
+```zsh
+vim ~/.bashrc
+```
+Press 'i' to enter insert mode in vim and now you would be able to edit the file.
+
+Now, search for <b>#force_color_prompt=yes</b> as shown in the img below (this is inside nano editor)
+
+<img src="https://1.bp.blogspot.com/-5AKFcay6TYI/U9f9SD3SOyI/AAAAAAAACOI/rTR2BgyFyK8/s1600/+and+uncomment.png">
+
+Just remove the '#' from it making it look like <b>force_color_prompt=yes</b>
+
+<b>Then press "Esc key", ":" (colon key) and "x" and ENTER </b>
+
+Now you, will be outside vim, and execute cmd
+```zsh
+source ~/.bashrc
+```
+And, done now your terminal have colors, giving better interactive experience no command line/ cli.
+---
 ## License 
 [GPL-3.0 License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE)
