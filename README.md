@@ -3,7 +3,7 @@ Local Hosting c9 IDE inside docker desktop
 1. Download and install [Docker Desktop](www.docker.com/products/docker-desktop) for Windows 64-bit (recommended)/ MacOS/ Linux 
     NOTE: Windows users need to enable virtualization support from BIOS
 
-### #Method 1 (Easier Way!, recommended) 
+### # Method 1 (Easier Way!, recommended) 
 ```zsh
 docker run --name cloud9 -p 3000:3000 -d bumblebee2311/c9-ide:latest
 ```
@@ -28,7 +28,7 @@ To get help on docker command
 docker COMMAND --help
 ```
 
-### #Method 2 (Tough Way!)
+### # Method 2 (Tough Way!)
 2. Downlod this GitHub repository [c9-ide](github.com/bumblebee2311/c9-ide)
 3. Un-zip the compresses file downloaded (c9-ide.zip) in yr Downloads folder.
 4. Start Docker Desktop in yr OS
