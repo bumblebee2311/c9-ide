@@ -88,6 +88,9 @@ It would redirect you to Cloud9 interface, providing similar experience as of AW
 4. Easy to setup and use.
 5. Provides the utility to setup quich 
 
+##### Disadvantage 
+1. The only disadvantage is that you need to enter in <b>docker stop CONTAINER ID</b> or stop it via GUI <b>Docker Dashboard</b> whenever one needs to stop docker container.
+
 ##### To, remove the container when you feel like as if you messes up something 
 Copy CONTAINER ID from <b>docker ps -a</b>
 Stop the container <b>docker stop CONTAINER ID</b>
