@@ -122,9 +122,10 @@ More updates on the way soon ...
 
 ---
 #### Colorful CLI Experience
-<b> NOTE : Turning non-colorful Terminal to a brilliant colorful cli experience </b>
 
-The interface inside terminal is not colorful but, plain in taste.
+The default interface inside terminal is not colorful but, plain in color.
+
+To get features analogus to syntax highlighting inside terminal. Follow the steps ... 
 
 So, to get a colorful terminal interface, you first need to install vim (no sudo previlidges required already active as root)
 ```zsh
@@ -153,3 +154,5 @@ And, done now your terminal have colors, giving better interactive experience no
 ---
 ## License 
 [GPL-3.0 License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE)
+
+<b> Happy Coding :D </b>
