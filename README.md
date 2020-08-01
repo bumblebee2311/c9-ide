@@ -2,6 +2,12 @@
 Local Hosting c9 IDE inside docker desktop
 1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows 64-bit (recommended)/ MacOS/ Linux 
     NOTE: Windows users need to enable virtualization support from BIOS
+2. Validate proper installation of Docker Desktop 
+```zsh 
+docker version
+```
+It would return information somewhat similar as shown in image below
+<img src="https://storage.googleapis.com/static.configserverfirewall.com/images/docker/docker-version-command.png">
 
 ### # Method 1 (Easier Way!, recommended) 
 ```zsh
@@ -35,13 +41,6 @@ docker COMMAND --help
 5. Start yr respective cmd line (PowerShell for Windows Users & Terminal for Linux/ MacOS terminal)
 6. Navigate to yr respective Downloads folder. 
     PowerShell/ Terminal : cd ~/Downloads 
-7. Validate proper installation of Docker Desktop 
-```zsh 
-docker version
-```
-It would return information somewhat similar as shown in image below
-<img src="https://storage.googleapis.com/static.configserverfirewall.com/images/docker/docker-version-command.png">
-
 7. Using Docker Desktop to build image using <b>Dockerfile</b>
 ```zsh
 docker build Cloud9
