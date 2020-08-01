@@ -2,7 +2,9 @@
 Local Hosting c9 IDE inside docker desktop
 1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows 64-bit (recommended)/ MacOS/ Linux 
     NOTE: Windows users need to enable virtualization support from BIOS
-2. Validate proper installation of Docker Desktop 
+2. Start Docker Desktop in yr OS
+3. Start yr respective cmd line (PowerShell for Windows Users & Terminal for Linux/ MacOS terminal)
+4. Validate proper installation of Docker Desktop 
 ```zsh 
 docker version
 ```
@@ -35,29 +37,29 @@ docker COMMAND --help
 ```
 
 ### # Method 2 (Tough Way!)
-2. Downlod this GitHub repository [c9-ide](github.com/bumblebee2311/c9-ide)
-3. Un-zip the compresses file downloaded (c9-ide.zip) in yr Downloads folder.
-4. Start Docker Desktop in yr OS
-5. Start yr respective cmd line (PowerShell for Windows Users & Terminal for Linux/ MacOS terminal)
-6. Navigate to yr respective Downloads folder. 
+5. Downlod this GitHub repository [c9-ide](github.com/bumblebee2311/c9-ide)
+6. Un-zip the compresses file downloaded (c9-ide.zip) in yr Downloads folder.
+7. Start Docker Desktop in yr OS
+8. Start yr respective cmd line (PowerShell for Windows Users & Terminal for Linux/ MacOS terminal)
+9. Navigate to yr respective Downloads folder. 
     PowerShell/ Terminal : cd ~/Downloads 
-7. Using Docker Desktop to build image using <b>Dockerfile</b>
+10. Using Docker Desktop to build image using <b>Dockerfile</b>
 ```zsh
 docker build Cloud9
 ```
-8. It would take time to build complete docker img using Dockerfile and init.sh and would require internet connection for additional pkg downloads.
-9. After complete image buildup, chk for its presence
+11. It would take time to build complete docker img using Dockerfile and init.sh and would require internet connection for additional pkg downloads.
+12. After complete image buildup, chk for its presence
 ```zsh
 docker images
 ```
 It would return attributes like REPOSITORY, TAG, IMAGE ID, CREATED, and SIZE and list all the images present probably ubuntu and c9-IDE.
 Since, ubuntu is used as base img to build Cloud9
 
-10. Create container from the installed img using the command
+13. Create container from the installed img using the command
 ```zsh
 docker run --name Cloud9:latest -p 3000:3000 -d c9:latest
 ```
-11. This would create a container and would return container ID, to see all active and inactive containers present with attributes like 
+14. This would create a container and would return container ID, to see all active and inactive containers present with attributes like 
 CONTAINER ID, IMAGE, COMMAND, CREATED, STATUS, PORTS, NAMES execute cmd
 ```zsh
 docker ps -a
@@ -66,13 +68,13 @@ To see all active containers
 ```zsh
 docker ps
 ```
-12. Now, the Web IDE is ready for use, copy the CONTAINER ID from <b>docker ps -a</b> and replace <b>CONTAINER ID</b> with it
+15. Now, the Web IDE is ready for use, copy the CONTAINER ID from <b>docker ps -a</b> and replace <b>CONTAINER ID</b> with it
 ```zsh
 docker start CONTAINER ID
 ```
 On, successful start it would return the same container ID
 
-13. Go to your favourite browser in your computer and type 0.0.0.0:3000
+16. Go to your favourite browser in your computer and type 0.0.0.0:3000
 
 ##### And Bingo!
 It would redirect you to Cloud9 interface, providing similar experience as of AWS Cloud9.
