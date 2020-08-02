@@ -41,6 +41,10 @@ docker COMMAND --help
 
 ### # Method 2 (Tough Way!)
 5. Downlod this GitHub repository [c9-ide](github.com/bumblebee2311/c9-ide)
+or if you have git installed on your system execute 
+```zsh
+git clone https://github.com/bumblebee2311/c9-ide.git ~/Downloads/c9-ide
+```
 6. Un-zip the compresses file downloaded (c9-ide.zip) in yr Downloads folder.
 7. Start Docker Desktop in yr OS
 8. Start yr respective cmd line (PowerShell for Windows Users & Terminal for Linux/ MacOS terminal)
