@@ -158,7 +158,8 @@ And, done now your terminal have colors, giving better interactive experience no
 ---
 ## License 
 [GPL-3.0 License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE)<br/>
-The [GNU GPLv3](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE) lets people do almost anything they want with forked repository,<br/> 
-except distributing closed source versions.
+The GPLv3 license lets people do almost anything they want with forked repository,<br/> 
+except distributing closed source versions.<br/>
+For more elaboration and licensing visit [choosealicense.com](https://choosealicense.com) 
 
 <b> Happy Coding :D </b>
