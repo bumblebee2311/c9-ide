@@ -16,7 +16,7 @@ It would return information somewhat similar as shown in image below
 docker run --name cloud9 -p 3000:3000 -d bumblebee2311/c9-ide:latest
 ```
 It would automatically download docker image and automatically start a container named as <b>cloud9</b> on host port 3000
-On IP address 0.0.0.0:3000 (accessible via browser)
+On IP address 0.0.0.0:3000 (accessible via browser (when <b>online</b>) and 127.0.0.1:3000 (when <b>online and offline</b>) )
 
 To stop an already running container <b>docker ps </b> (Container NAMES <b>cloud9</b>)
 ```zsh
@@ -81,7 +81,8 @@ docker start CONTAINER ID
 ```
 On, successful start it would return the same container ID
 
-16. Go to your favourite browser in your computer and type 0.0.0.0:3000
+16. Go to your favourite browser in your computer and type 0.0.0.0:3000 (accessible on the IP addr only when you are online)
+On IP address 0.0.0.0:3000 (accessible via browser (when <b>online</b>) and 127.0.0.1:3000 (when <b>online and/ or offline</b>) )
 
 ##### And Bingo!
 It would redirect you to Cloud9 interface, providing similar experience as of AWS Cloud9.
