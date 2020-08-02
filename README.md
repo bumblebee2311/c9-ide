@@ -158,9 +158,13 @@ And, done now your terminal have colors, giving better interactive experience no
 ---
 ## License 
 [GPL-3.0 License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE)
+
 Long in short, 
+
 you can fork the code, 
-can do any kind of modification in it but, u can't commercialise it, 
-u have to keep it open source under the [GPL-3.0 License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE) of the parent repository.
+
+can do any kind of modification in it but, u can't commercialise it.
+
+You are bound to keep it open source under the [GPL-3.0 License](https://github.com/bumblebee2311/c9-ide/blob/master/LICENSE) of the parent repository.
 
 <b> Happy Coding :D </b>
