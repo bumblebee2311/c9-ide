@@ -1,7 +1,9 @@
 # c9-ide
 Local Hosting c9 IDE inside docker desktop
 1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows 64-bit (recommended)/ MacOS/ Linux <br/>
-    NOTE: Windows users need to enable virtualization support from BIOS
+   NOTE: Windows users need to enable virtualization support from BIOS ref.<br/>
+   [Install Instr. Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/), 
+   [Install Instr. Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
 2. Start Docker Desktop in yr OS
 3. Start yr respective cmd line (PowerShell for Windows Users & Terminal for Linux/ MacOS terminal)
 4. Validate proper installation of Docker Desktop 
